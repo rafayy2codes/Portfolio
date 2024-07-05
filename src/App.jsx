@@ -2,7 +2,7 @@ import LandingPage from "./components/LandingPage";
 import Marquee from "./components/Marquee";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Education from "./components/Education";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
       <LandingPage />
       <Marquee />
       <About />
-      <Education />
+      <Footer />
     </div>
   )
 }
